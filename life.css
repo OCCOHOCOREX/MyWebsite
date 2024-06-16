@@ -1,0 +1,563 @@
+@font-face {
+    font-family: "Bluu";
+    src: url("BluuNext-master/Fonts/BluuNext-Bold.otf") format("opentype");
+    ont-style: normal;
+}
+
+body {
+    background-color: #ffffe0;
+    height: 18000px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cate {
+    display: flex;
+    font-family: "Bluu";
+    font-size: 7vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+    /*background-color: cyan;*/
+}
+
+.cate > a {
+    /*background-color: yellow;*/
+    text-align: center;
+    justify-content: center;
+    width: 42vw;
+    /*height: 15vw;*/
+    margin: 1vw;
+    text-decoration: none;
+    cursor: default;
+}
+
+.cate > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#reli {
+    color: hsla(166 100% 19%);
+    text-align: center;
+    width: 45vw;
+}
+
+#inte {
+    color: hsla(272 35% 34%);
+}
+
+.gory {
+    display: flex;
+    font-family: "Bluu";
+    font-size: 7vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+    /*background-color: green;*/
+    cursor: default;
+}
+
+.gory > a {
+    /*background-color: yellow;*/
+    text-align: center;
+    justify-content: center;
+    color: hsla(178 100% 8%);
+    width: 42vw;
+    /*height: 15vw;*/
+    margin: 1vw;
+    text-decoration: none;
+}
+
+.gory > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#work {
+    color: hsla(324 39% 31%);
+    text-align: right;
+    width: 27vw;
+    margin-left: 2vw;
+}
+
+#ent {
+    color: hsla(211 54% 32%);
+    text-align: right;
+    width: 60vw;
+}
+
+#des {
+    font-family: "Bluu";
+    font-size: 2vw;
+    display: block;
+    color: #426335;
+    position: absolute;
+    width: 64vw;
+    left: 27vw;
+    text-align: center;
+    margin: 2vw;
+    padding: 0.5vw;
+    border: 0.3vw dashed #426335;
+}
+
+/* Real Lifes */
+
+#relitit {
+    display: block;
+    position: absolute;
+    font-family: "Bluu";
+    font-size: 4vw;
+    justify-content: center;
+    /*background-color: yellow;*/
+    text-align: center;
+    width: 22vw;
+    left: 72vw;
+    top: 800px;
+    margin: 1vw;
+    cursor: default;
+    color: hsla(166 100% 19%);
+}
+
+#relitit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.relipic0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background-color: darkcyan;
+}
+
+.relipic1 {
+    background-color: #c6f5ea;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 900px;
+}
+
+.relipicdes {
+    display: block;
+    font-family: "Bluu";
+    font-size: 2vw;
+    margin: 2vw;
+    color: hsla(166 100% 19%);
+}
+
+#crab {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#sunfl {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#relipicdes1 {
+    color: hsla(166 100% 19%);
+}
+
+.relipic2 {
+    background-color: #c6f5ea;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 2900px;
+}
+
+#relipicdes2 {
+    color: hsla(166 100% 19%);
+}
+
+.relipic3 {
+    background-color: #c6f5ea;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 4900px;
+}
+
+#rubber {
+    width: 50vw;
+    margin: 2vw;
+}
+
+#relipicdes3:hover {
+
+}
+
+.relipic4{
+    background-color: #c6f5ea;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 5725px;
+}
+
+#rene {
+    width: 50vw;
+    margin: 2vw;
+}
+
+/* Interests */
+
+#intetit {
+    display: block;
+    position: absolute;
+    font-family: "Bluu";
+    font-size: 4vw;
+    justify-content: center;
+    /*background-color: yellow;*/
+    text-align: center;
+    width: 17vw;
+    left: 78vw;
+    top: 7400px;
+    margin: 1vw;
+    cursor: default;
+    color: hsla(272 35% 34%);
+}
+
+#intetit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*.intepic0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background-color: darkcyan;
+}*/
+
+.intepic1 {
+    background-color: #f6ebff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 7500px;
+}
+
+.intepicdes {
+    display: block;
+    font-family: "Bluu";
+    font-size: 2vw;
+    margin: 2vw;
+    color: hsla(272 35% 34%);
+}
+
+#manga {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#choju {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#tuzi {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#shuihu {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#intepicdes1 {
+    color: hsla(272 35% 34%);
+}
+
+.intepic2 {
+    background-color: #f6ebff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 9527.5px;
+}
+
+#intepicdes2 {
+    color: hsla(272 35% 34%);
+}
+
+#op {
+    width: 50vw;
+    margin: 2vw;
+}
+
+.intepic3 {
+    background-color: #f6ebff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 10775px;
+}
+
+#violin {
+    width: 50vw;
+    margin: 2vw;
+}
+
+#intepicdes3:hover {
+
+}
+
+/* Works */
+
+#worktit {
+    display: block;
+    position: absolute;
+    font-family: "Bluu";
+    font-size: 4vw;
+    justify-content: center;
+    /*background-color: yellow;*/
+    text-align: center;
+    width: 13vw;
+    left: 82vw;
+    top: 12000px;
+    margin: 1vw;
+    cursor: default;
+    color: hsla(324 39% 31%);
+}
+
+#worktit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.workpic1 {
+    font-family: "Bluu";
+    background-color: #ffe6f5;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 12462.5px;
+}
+
+.workpicdes {
+    display: block;
+    font-family: "Bluu";
+    font-size: 2vw;
+    margin: 2vw;
+    color: hsla(272 35% 34%);
+}
+
+#onigiri {
+    font-size: 8vw;
+    font-style: italic;
+    color: hsla(324 39% 31%);
+    width: 43vw;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+#onigiri:hover {
+    text-decoration: underline;
+}
+
+#workpicdes1 {
+    color: hsla(324 39% 31%);
+}
+
+.workpic2 {
+    font-family: "Bluu";
+    background-color: #ffe6f5;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 12862.5px;
+}
+
+#flo {
+    font-size: 8vw;
+    font-style: italic;
+    color: hsla(324 39% 31%);
+    width: 43vw;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+#flo:hover {
+    text-decoration: underline;
+}
+
+#workpicdes2 {
+    color: hsla(324 39% 31%);
+}
+
+.workpic3 {
+    font-family: "Bluu";
+    background-color: #ffe6f5;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 12100px;
+}
+
+#sp {
+    font-size: 8vw;
+    font-style: italic;
+    color: hsla(324 39% 31%);
+    width: 43vw;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+#sp:hover {
+    text-decoration: underline;
+}
+
+#workpicdes3 {
+    color: hsla(324 39% 31%);
+}
+
+/* Entertainment */
+
+#enttit {
+    display: block;
+    position: absolute;
+    font-family: "Bluu";
+    font-size: 4vw;
+    justify-content: center;
+    /*background-color: yellow;*/
+    text-align: center;
+    width: 29vw;
+    left: 66vw;
+    top: 13600px;
+    margin: 1vw;
+    cursor: default;
+    color: hsla(211 52% 32%);
+}
+
+#enttit:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.entpic1 {
+    font-family: "Bluu";
+    background-color: #e7faff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 13700px;
+}
+
+.entpicdes {
+    display: block;
+    font-family: "Bluu";
+    font-size: 2vw;
+    margin: 2vw;
+    color: hsla(211 52% 32%);
+}
+
+#bk {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#entpicdes1 {
+    color: hsla(211 52% 32%);
+}
+
+.entpic2 {
+    font-family: "Bluu";
+    background-color: #e7faff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 14825px;
+}
+
+#ns {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#nscontr {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#entpicdes2 {
+    color: hsla(211 52% 32%);
+}
+
+.entpic3 {
+    font-family: "Bluu";
+    background-color: #e7faff;
+    position: absolute;
+    justify-content: center;
+    width: 95vw;
+    top: 16090px;
+}
+
+#bb {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#ps4 {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#monitor {
+    width: 43vw;
+    margin: 2vw;
+}
+
+#entpicdes3 {
+    color: hsla(211 52% 32%);
+}
+
+#top {
+    display: block;
+    position: absolute;
+    font-family: "Bluu";
+    font-size: 3vw;
+    justify-content: center;
+    text-align: center;
+    /*width: 19vw;*/
+    left: 82vw;
+    top: 17750px;
+    padding: 1vw;
+    margin: 1vw;
+    cursor: pointer;
+    color: #426335;
+    border: 0.3vw solid #426335;
+    border-radius: 10px;
+}
+
+#top:hover {
+    color: lightyellow;
+    background-color: #426335;
+    border: 0.3vw solid #426335 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+

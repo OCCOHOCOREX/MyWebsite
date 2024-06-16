@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Bluu";
+    src: url("BluuNext-master/Fonts/BluuNext-Bold.otf") format("opentype");
+    ont-style: normal;
+}
+
+body {
+    background-color: #ffffe0;
+}
+
+.greet {
+	font-family: 'Bluu', cursive;
+	color: #002e51;
+}
+
+#hello {
+	position: absolute;
+	font-size: 3.5vw;
+	left: 30vw;
+	top: 2vh;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#im {
+	display: none;
+	position: absolute;
+	font-size: 15vw;
+	left: 10vw;
+	top: 5vh;
+	cursor: default;
+}
+
+#wel {
+	display: none;
+	position: absolute;
+	font-size: 4vw;
+	left: 40vw;
+	top: 37vh;
+	cursor: default;
+}
+
+#descr {
+	display: none;
+	position: absolute;
+	font-size: 2vw;
+	left: 8vw;
+	top: 50vh;
+	width: 50vw;
+	cursor: default;
+}
+
+#plz {
+	display: none;
+	position: absolute;
+	font-size: 2vw;
+	left: 70vw;
+	top: 70vh;
+	cursor: default;
+}
+
+#thx {
+	display: none;
+	position: absolute;
+	font-size: 2vw;
+	left: 74vw;
+	top: 74.5vh;
+	cursor: default;
+}
+
+ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #002e51;
+}
+
+.bar {
+	font-family: 'Bluu', cursive;
+	display: none;
+	float: left;
+}
+
+.bar a, .goto {
+	display: block;
+	color: #002e51;
+	text-align: center;
+	/*position: absolute;*/
+}
+
+#goto {
+	position: absolute;
+	font-size: 2vw;
+	left: 80vw;
+	top: 79vh;
+	cursor: default;
+	text-decoration: underline;
+}
+
+.bar:hover #goto {
+	display: block;
+  	color: white;
+  	background-color: #002e51;
+  	text-decoration: none;
+}
+
+.bar:hover .drop {
+  	display: block;
+}
+
+.drop {
+  	display: none;
+  	position: absolute;
+  	font-size: 2vw;
+	left: 80vw;
+	top: 83.5vh;
+  	box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.drop a {
+  color: #002e51;
+  text-decoration: none;
+  background-color: #95bbd8;
+  /*display: block;*/
+  text-align: left;
+}
+
+.drop a:hover {
+	/*background-color: #76a3c6;*/
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

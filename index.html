@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- documemt language -->
+<html  lang="en-US">
+  <head>
+<!-- character encoding set -->
+  <meta charset="utf-8">
+
+  <title> ⬆️Home⬆️ </title>
+
+  	<!-- Metadata -->
+  	<meta name="REX" content="My name">
+  	<meta name="description" content="description of this page.">
+
+    <link rel='stylesheet' href='welcome.css'/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+  </head>
+  <body>
+    <div class="flex0">
+      <div class="flex">
+        <div class="flex1">
+          <a href="welcome.html"> WeLcoMe </a>
+          <a href="About.html" target="_blank"> About </a>
+          <a href="AutomaticSelector.html" target="_blank"> Auto Selec </a>
+          <a href="life.html" target="_blank"> Life </a>
+          <a id="getout" href="welcome.html"> Get out </a>
+        </div>
+      </div>
+
+      <div class="flexn">
+        <div class="flex2">
+          <a href="index.html"> Have no <br> ideas </a>
+        </div>
+        <p id="demo"></p>
+        <a id="link"></a>
+      </div>
+    </div>
+
+    <script>
+      let x = Math.floor(Math.random() * 5);
+
+      const link = [];
+      link[0]= "WeLcoMe";
+      link[1]= "About";
+      link[2]= "Automatic Selector";
+      link[3]= "Life";
+      link[4]= "Get Out";
+      document.getElementById("link").innerHTML = link[x];
+
+
+      // Cannot achieve closing current window :(
+
+      // let mywin;
+      // let mywin = index.html;
+
+      // $(document).ready(function(){
+      //   $("#getout").click(function(){
+      //     mywin.close();
+      //   });
+
+      // function closeWin() {
+      //   if (myWindow) {
+      //     myWindow.close();
+      //   }
+      // }
+    </script>
+
+
+
+
+
+
+
+  </body>
+  </html>
+
+
+
+
+
+
+
